@@ -93,10 +93,6 @@
     "wildemitter": "^1.0",
     "winston": "^1.0.0"
   },
-  "optionalDependencies": {
-    "execSync": "^1.0",
-    "mdns": "^2.0"
-  },
   "devDependencies": {
     "chai": "^2.0.0",
     "coveralls": "^2.8",
