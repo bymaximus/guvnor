@@ -53,7 +53,7 @@ rpctimeout = 30000
 
 [logs]
   ; The max number of log entries per process that will be stored
-  max = 1000
+  max = 500
 
 [exceptions]
   ; The max number of exceptions per process that will be stored
@@ -67,4 +67,4 @@ rpctimeout = 30000
   ; Incoming log/exception events arrive in real time and are batched before begin sent to
   ; the browser to prevent locking up the UI. This is how frequently they are sent in ms.
   ; If your processes log excessively, you may wish to increase this number.
-  frequency = 500
+  frequency = 1000
