@@ -19,12 +19,12 @@ rpctimeout = 30000
   listen = 0.0.0.0
 
   ; Which port to accept connections on
-  port = 3000
+  port = 80
 
 [https]
   ; If you are performing SSL termination somewhere else set this to false to
   ; stop guv-web from starting an https server, otherwise leave this enabled!
-  enabled = true
+  enabled = false
 
   ; Which host to accept connections on
   listen = 0.0.0.0

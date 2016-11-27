@@ -57,7 +57,7 @@ daemonize = true
   port = 57483
 
   ; The host Boss will list on for incoming guvnor-remote connections
-  host = 0.0.0.0
+  host = 127.0.0.1
 
   ; Set this to provide a path to the private key for this server.  If left
   ; undefined a temporary key will be generated.
@@ -71,12 +71,12 @@ daemonize = true
   certificate = undefined
 
   ; If true, the rpc port will be advertised over mDNS/Bonjour/Zeroconf on supported systems
-  advertise = true
+  advertise = false
 
 [remote.inspector]
   ; If true, Boss will start an instance of node-inspector in order to debug
   ; processes running on this host
-  enabled = true
+  enabled = false
 
   ; The port to use for the instance of node-inspector
   port = 57484
